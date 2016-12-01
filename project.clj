@@ -13,6 +13,8 @@
                  [ring.middleware.logger "0.5.0"]
                  [compojure "1.5.0"]
                  [environ "1.0.3"]
+                 [cljs-ajax "0.5.8"]
+                 [org.clojure/core.async "0.2.395"]
                  [org.omcljs/om "1.0.0-alpha36"]]
 
   :plugins [[lein-cljsbuild "1.1.3"]
